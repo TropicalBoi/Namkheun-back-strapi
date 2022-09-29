@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manifestos",
+  "info": {
+    "singularName": "manifesto",
+    "pluralName": "manifestos",
+    "displayName": "Manifesto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "CoverImages": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "integer"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "ThContent": {
+      "type": "richtext"
+    },
+    "ThAuthor": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ThDescription": {
+      "type": "text"
+    }
+  }
+}
