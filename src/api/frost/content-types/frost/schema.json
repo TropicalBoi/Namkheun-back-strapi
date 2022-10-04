@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frosts",
+  "info": {
+    "singularName": "frost",
+    "pluralName": "frosts",
+    "displayName": "Frost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CoverImages": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
