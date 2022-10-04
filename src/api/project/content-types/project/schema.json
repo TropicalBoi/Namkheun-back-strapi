@@ -26,6 +26,18 @@
       "relation": "oneToMany",
       "target": "api::manifesto.manifesto",
       "mappedBy": "project"
+    },
+    "frosts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::frost.frost",
+      "mappedBy": "project"
+    },
+    "notes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::note.note",
+      "mappedBy": "project"
     }
   }
 }
