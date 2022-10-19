@@ -4,7 +4,8 @@
   "info": {
     "singularName": "note",
     "pluralName": "notes",
-    "displayName": "Notes"
+    "displayName": "Notes",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,20 +13,33 @@
   "pluginOptions": {},
   "attributes": {
     "CoverImages": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "project": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "notes"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Content": {
+      "type": "richtext"
     }
   }
 }
