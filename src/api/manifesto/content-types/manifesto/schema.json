@@ -66,6 +66,14 @@
     },
     "ThTitle": {
       "type": "string"
+    },
+    "TextAlign": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Center",
+        "Right"
+      ]
     }
   }
 }
