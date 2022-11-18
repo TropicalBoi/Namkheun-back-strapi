@@ -30,16 +30,29 @@
       "inversedBy": "notes"
     },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "default": "-"
     },
     "Author": {
-      "type": "string"
-    },
-    "Date": {
-      "type": "date"
+      "type": "string",
+      "default": "-"
     },
     "Content": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "-"
+    },
+    "PublishDate": {
+      "type": "date",
+      "default": "2022-01-01"
+    },
+    "TextAlign": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Center",
+        "Right"
+      ],
+      "default": "Left"
     }
   }
 }

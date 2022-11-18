@@ -13,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "-"
     },
     "CoverImages": {
       "type": "media",
@@ -38,25 +40,32 @@
       ]
     },
     "Author": {
-      "type": "string"
+      "type": "string",
+      "default": "-"
     },
     "Year": {
       "type": "integer"
     },
     "Content": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "-"
     },
     "ThContent": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "-"
     },
     "ThAuthor": {
-      "type": "string"
+      "type": "string",
+      "default": "-",
+      "required": true
     },
     "Description": {
-      "type": "text"
+      "type": "text",
+      "default": "-"
     },
     "ThDescription": {
-      "type": "text"
+      "type": "text",
+      "default": "-"
     },
     "project": {
       "type": "relation",
@@ -65,7 +74,8 @@
       "inversedBy": "manifestos"
     },
     "ThTitle": {
-      "type": "string"
+      "type": "string",
+      "default": "-"
     },
     "TextAlign": {
       "type": "enumeration",
@@ -73,7 +83,17 @@
         "Left",
         "Center",
         "Right"
-      ]
+      ],
+      "default": "Left"
+    },
+    "PublishDate": {
+      "type": "date",
+      "default": "2022-01-01"
+    },
+    "DownloadLink": {
+      "type": "string",
+      "default": "-",
+      "required": true
     }
   }
 }
