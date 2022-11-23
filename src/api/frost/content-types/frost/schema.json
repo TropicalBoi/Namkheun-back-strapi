@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "frosts",
   "info": {
     "singularName": "frost",
@@ -25,9 +25,8 @@
     },
     "project": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::project.project",
-      "inversedBy": "frosts"
+      "relation": "oneToOne",
+      "target": "api::project.project"
     }
   }
 }

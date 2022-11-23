@@ -94,6 +94,16 @@
       "type": "string",
       "default": "-",
       "required": true
+    },
+    "BodyImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

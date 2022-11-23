@@ -53,6 +53,16 @@
         "Right"
       ],
       "default": "Left"
+    },
+    "BodyImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
