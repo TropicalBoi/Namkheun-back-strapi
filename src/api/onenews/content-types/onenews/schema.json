@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "notes",
+  "collectionName": "news",
   "info": {
-    "singularName": "note",
-    "pluralName": "notes",
-    "displayName": "Notes",
+    "singularName": "onenews",
+    "pluralName": "news",
+    "displayName": "News",
     "description": ""
   },
   "options": {
@@ -27,11 +27,10 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::project.project",
-      "inversedBy": "notes"
+      "inversedBy": "news"
     },
     "Title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Author": {
       "type": "string"
@@ -52,15 +51,14 @@
       "default": "Left"
     },
     "BodyImages": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

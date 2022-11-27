@@ -14,8 +14,7 @@
   "attributes": {
     "Title": {
       "type": "string",
-      "required": true,
-      "default": "-"
+      "required": true
     },
     "CoverImages": {
       "type": "media",
@@ -40,32 +39,26 @@
       ]
     },
     "Author": {
-      "type": "string",
-      "default": "-"
+      "type": "string"
     },
     "Year": {
       "type": "integer"
     },
     "Content": {
-      "type": "richtext",
-      "default": "-"
+      "type": "richtext"
     },
     "ThContent": {
-      "type": "richtext",
-      "default": "-"
+      "type": "richtext"
     },
     "ThAuthor": {
       "type": "string",
-      "default": "-",
-      "required": true
+      "required": false
     },
     "Description": {
-      "type": "text",
-      "default": "-"
+      "type": "text"
     },
     "ThDescription": {
-      "type": "text",
-      "default": "-"
+      "type": "text"
     },
     "project": {
       "type": "relation",
@@ -74,8 +67,7 @@
       "inversedBy": "manifestos"
     },
     "ThTitle": {
-      "type": "string",
-      "default": "-"
+      "type": "string"
     },
     "TextAlign": {
       "type": "enumeration",
@@ -87,23 +79,22 @@
       "default": "Left"
     },
     "PublishDate": {
-      "type": "date",
-      "default": "2022-01-01"
+      "type": "date"
     },
     "DownloadLink": {
       "type": "string",
-      "default": "-",
-      "required": true
+      "required": false
     },
     "BodyImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

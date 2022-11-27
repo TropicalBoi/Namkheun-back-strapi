@@ -42,6 +42,12 @@
       ],
       "type": "media",
       "multiple": true
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::onenews.onenews",
+      "mappedBy": "project"
     }
   }
 }

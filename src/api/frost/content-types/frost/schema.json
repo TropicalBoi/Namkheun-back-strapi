@@ -27,6 +27,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::project.project"
+    },
+    "PublishDate": {
+      "type": "date"
     }
   }
 }
