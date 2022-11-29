@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shop",
     "pluralName": "shops",
-    "displayName": "Shop"
+    "displayName": "Shop",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "DisplayImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "ItemMainDetail": {
       "type": "richtext"
@@ -28,6 +30,12 @@
       "type": "richtext"
     },
     "PurchaseLink": {
+      "type": "string"
+    },
+    "Pin": {
+      "type": "boolean"
+    },
+    "ItemName": {
       "type": "string"
     }
   }
