@@ -34,20 +34,27 @@
       "mappedBy": "project"
     },
     "Logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "news": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::onenews.onenews",
       "mappedBy": "project"
+    },
+    "DownloadLink": {
+      "type": "string"
+    },
+    "Pin": {
+      "type": "boolean"
     }
   }
 }

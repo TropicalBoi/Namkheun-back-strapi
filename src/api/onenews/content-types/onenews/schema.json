@@ -30,7 +30,8 @@
       "inversedBy": "news"
     },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 40
     },
     "Author": {
       "type": "string"
@@ -51,14 +52,18 @@
       "default": "Left"
     },
     "BodyImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Pin": {
+      "type": "boolean"
     }
   }
 }
