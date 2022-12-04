@@ -51,17 +51,6 @@
       ],
       "default": "Left"
     },
-    "BodyImages": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Pin": {
       "type": "boolean"
     }

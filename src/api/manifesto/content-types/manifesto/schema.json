@@ -84,17 +84,6 @@
     "DownloadLink": {
       "type": "string",
       "required": false
-    },
-    "BodyImages": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     }
   }
 }
