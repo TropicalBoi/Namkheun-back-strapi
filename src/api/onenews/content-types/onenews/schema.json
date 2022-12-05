@@ -53,6 +53,15 @@
     },
     "Pin": {
       "type": "boolean"
+    },
+    "ThAuthor": {
+      "type": "string"
+    },
+    "ThTitle": {
+      "type": "string"
+    },
+    "ThContent": {
+      "type": "richtext"
     }
   }
 }
