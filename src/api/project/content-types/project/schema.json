@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ProjectName": {
+    "ProjectAPIName": {
       "type": "string"
     },
     "Description": {
@@ -55,6 +55,9 @@
     },
     "Pin": {
       "type": "boolean"
+    },
+    "PorjectName": {
+      "type": "string"
     }
   }
 }
