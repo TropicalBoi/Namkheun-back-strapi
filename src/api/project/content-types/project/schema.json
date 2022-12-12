@@ -56,7 +56,7 @@
     "Pin": {
       "type": "boolean"
     },
-    "PorjectName": {
+    "ProjectName": {
       "type": "string"
     }
   }
