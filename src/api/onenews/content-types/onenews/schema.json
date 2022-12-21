@@ -29,14 +29,14 @@
       "target": "api::project.project",
       "inversedBy": "news"
     },
-    "Title": {
+    "Title_EN": {
       "type": "string",
       "maxLength": 40
     },
-    "Author": {
+    "Author_EN": {
       "type": "string"
     },
-    "Content": {
+    "Content_EN": {
       "type": "richtext"
     },
     "PublishDate": {
@@ -54,13 +54,13 @@
     "Pin": {
       "type": "boolean"
     },
-    "ThAuthor": {
+    "Author_TH": {
       "type": "string"
     },
-    "ThTitle": {
+    "Title_TH": {
       "type": "string"
     },
-    "ThContent": {
+    "Content_TH": {
       "type": "richtext"
     }
   }
