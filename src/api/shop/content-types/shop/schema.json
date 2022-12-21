@@ -23,10 +23,10 @@
         "audios"
       ]
     },
-    "ItemMainDetail": {
+    "ItemMainDetail_EN": {
       "type": "richtext"
     },
-    "ItemMoreDetail": {
+    "ItemMoreDetail_EN": {
       "type": "richtext"
     },
     "PurchaseLink": {
@@ -35,8 +35,17 @@
     "Pin": {
       "type": "boolean"
     },
-    "ItemName": {
+    "ItemName_EN": {
       "type": "string"
+    },
+    "ItemName_TH": {
+      "type": "string"
+    },
+    "ItemMainDetail_TH": {
+      "type": "richtext"
+    },
+    "ItemMoreDetail_TH": {
+      "type": "richtext"
     }
   }
 }

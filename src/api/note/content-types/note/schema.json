@@ -29,14 +29,14 @@
       "target": "api::project.project",
       "inversedBy": "notes"
     },
-    "Title": {
+    "Title_TH": {
       "type": "string",
       "required": true
     },
-    "Author": {
+    "Author_TH": {
       "type": "string"
     },
-    "Content": {
+    "Content_TH": {
       "type": "richtext"
     },
     "PublishDate": {
@@ -61,6 +61,15 @@
         "videos",
         "audios"
       ]
+    },
+    "Title_EN": {
+      "type": "string"
+    },
+    "Author_EN": {
+      "type": "string"
+    },
+    "Content_EN": {
+      "type": "richtext"
     }
   }
 }
