@@ -58,7 +58,8 @@
       "type": "string"
     },
     "Title_TH": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 40
     },
     "Content_TH": {
       "type": "richtext"
